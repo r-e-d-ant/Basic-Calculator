@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <main class="main">
+        <div class="calculator__container">
+            <div class=calculator>
+                <div class="top">
+                    <div class="preview">
+                        <span class="value" id="value-id">0</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="buttons">
+                        <div class="first_row row">
+                            <span class="button number">7</span>
+                            <span class="button number">8</span>
+                            <span class="button number">9</span>
+                        </div>
+
+                        <div class="second_row row">
+                            <span class="button number">4</span>
+                            <span class="button number">5</span>
+                            <span class="button number">6</span>
+                        </div>
+
+                        <div class="third_row row">
+                            <span class="button number">1</span>
+                            <span class="button number">2</span>
+                            <span class="button number">3</span>
+                        </div>
+
+                        <div class="fourth_row row">
+                            <span class="button number">0</span>
+                            <span class="button" id="point">.</span>
+                            <span class="button" id="clear">C</span>
+                        </div>
+
+                        <div class="five_row row">
+                            <span class="button" id="clear_all">AC</span>
+                            <span class="button comma">,</span>
+                            <span class="button" id="percent">%</span>
+                        </div>
+                    </div>
+                    <div class="right_panel">
+                        <span class="button sign">/</span>
+                        <span class="button sign x_sign">*</span>
+                        <span class="button sign">-</span>
+                        <span class="button sign">+</span>
+                        <span class="button" id="equal">=</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
