@@ -1,6 +1,11 @@
 # Basic-Calculator
 Basic calculator made in vanilla javascript, HTML/CSS
 
+Overview
+---
+
+![Alt Text](https://github.com/r-e-d-ant/Basic-Calculator/blob/main/overview.gif)
+
 Mobile View
 ---
 
